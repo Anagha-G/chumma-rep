@@ -6,9 +6,6 @@ on:
       - master
 
 jobs:
-  deploy:
-    name: Deploy to ECS
-    runs-on: nginx:latest
 
     steps:
     - name: Checkout
